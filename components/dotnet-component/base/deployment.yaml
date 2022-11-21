@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dotnet-component
     spec:
       containers:
-      - image: quay.io/psturc/test-images:dd11444492a44658a372a81aa6c76f6e
+      - image: quay.io/psturc/test-images@sha256:4391c4fb82a4516d1f80086c83cfb24d600e34709b17da8862aafc92468e2798
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
